@@ -1,0 +1,68 @@
+// Color pallette:
+$primary-color: #252525;
+$secondary-color: #2c3333;
+$third-color: #6930c3;
+$fourth-color: #64dfdf;
+$fifth-color: #eeeeee;
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Inconsolata:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+html,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  scroll-behavior: smooth !important;
+
+  padding: 0;
+  margin: 0;
+  font-family: 'Inconsolata', monospace;
+  background-color: $primary-color;
+  color: $fifth-color;
+}
+
+h1,
+h2,
+h3 {
+  font-family: 'Raleway', serif;
+  font-weight: 700;
+}
+
+h1 {
+  font-size: 4em;
+}
+
+h2 {
+  font-size: 2em;
+}
+
+h3 {
+  font-size: 1.25em;
+}
+
+strong {
+  font-weight: 700;
+}
+
+nav {
+  background-color: $secondary-color;
+}
+
+footer {
+  background-color: $third-color;
+  color: $primary-color;
+}
+
+.color-test {
+  background-color: $fourth-color;
+  color: $primary-color;
+}
+
+em {
+  display: block;
+  font-style: italic;
+}
+ul {
+  list-style-type: none;
+}
