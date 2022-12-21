@@ -1,0 +1,20 @@
+@import '../../../styles/colors.scss';
+
+.navbarContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1vh 5vw;
+  input {
+    border: 2px solid $fifth-color;
+    background-color: transparent;
+    color: $fifth-color;
+    padding: 7px;
+    border-radius: 10px;
+    width: 50vw;
+    &:focus {
+      outline: 0;
+      border: 2px solid $third-color;
+    }
+  }
+}

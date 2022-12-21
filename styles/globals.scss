@@ -1,10 +1,7 @@
-// Color pallette:
-$primary-color: #252525;
-$secondary-color: #2c3333;
-$third-color: #6930c3;
-$fourth-color: #64dfdf;
-$fifth-color: #eeeeee;
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Inconsolata:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import './colors.scss';
+@import './sizes.scss';
+
 html,
 body {
   margin: 0;
@@ -41,6 +38,14 @@ h3 {
   font-size: 1.25em;
 }
 
+h4 {
+  font-size: 1em;
+}
+
+h5 {
+  font-size: 0.75em;
+}
+
 strong {
   font-weight: 700;
 }
@@ -51,11 +56,6 @@ nav {
 
 footer {
   background-color: $third-color;
-  color: $fifth-color;
-}
-
-.color-test {
-  background-color: $fourth-color;
   color: $fifth-color;
 }
 

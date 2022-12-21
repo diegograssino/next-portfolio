@@ -1,0 +1,26 @@
+// Color pallette:
+$primary-color: #252525;
+$secondary-color: #2c3333;
+$third-color: #6930c3;
+$fourth-color: #64dfdf;
+$fifth-color: #eeeeee;
+
+$colorList: (
+  'primary' $primary-color,
+  'secondary' $secondary-color,
+  'third' $third-color,
+  'fourth' $fourth-color,
+  'fifth' $fifth-color
+);
+
+@each $i in $colorList {
+  .bg-#{nth($i,1)} {
+    background-color: nth($i, 2);
+  }
+}
+
+@each $i in $colorList {
+  .text-#{nth($i,1)} {
+    color: nth($i, 2);
+  }
+}
